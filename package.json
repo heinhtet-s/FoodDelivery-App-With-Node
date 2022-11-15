@@ -9,6 +9,10 @@
     "build": "tsc -p .",
     "postinstall": "npm run build"
   },
+  "engines": {
+    "node": "16.18.0",
+    "npm": "8.19.2"
+  },
   "author": "Jayant Gogoi",
   "license": "ISC",
   "dependencies": {

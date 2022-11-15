@@ -79,7 +79,7 @@ var StartServer = function () { return __awaiter(void 0, void 0, void 0, functio
                 return [4 /*yield*/, (0, ExpressApp_1.default)(app)];
             case 2:
                 _a.sent();
-                app.listen(5000, function () {
+                app.listen(process.env.port || 5000, function () {
                     console.log("Server is running on port 3000");
                 });
                 return [2 /*return*/];
